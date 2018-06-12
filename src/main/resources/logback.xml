@@ -8,7 +8,7 @@
     <!-- 动态日志级别 -->
     <jmxConfigurator />
     <!-- 定义日志文件 输出位置 -->
-    <!-- <property name="log_dir" value="C:/User" />-->
+    <!-- <property name="log_dir" value="C:/Camerist" />-->
     <property name="log_dir" value="/home/hadmin/data/logs/src" />
     <!-- 日志最大的历史 30天 -->
     <property name="maxHistory" value="30" />

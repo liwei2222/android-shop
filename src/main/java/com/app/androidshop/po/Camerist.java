@@ -6,8 +6,8 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name="user")
-public class User {
+@Table(name="camerist")
+public class Camerist {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
@@ -18,7 +18,15 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "note")
+    private String note;
+
+    @Column(name = "location")
+    private  String location;
+
     @Column(name = "phone")
     private String phone;
 
+    @Column(name = "price")
+    private String price;
 }
